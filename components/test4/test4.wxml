@@ -1,0 +1,10 @@
+<!--components/test4/test4.wxml-->
+<!-- <text>components/test4/test4.wxml</text> -->
+
+<view>
+  <slot style="margin: 20rpx;" name="before"></slot>
+  <slot name="after"></slot>
+</view>
+
+<view>子组件中count值为： {{count}}</view>
+<button type="primary" bind:tap="addCount"> + 1</button>

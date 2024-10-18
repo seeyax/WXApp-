@@ -1,0 +1,28 @@
+<!-- <view class="box">
+  <view class="inner">
+    {{info}}
+  </view>
+  <view>{{number >=5 ? "大于等于5" : "小于5"}}</view>
+</view> -->
+<!-- <view id="view" style="height: 150PX; width: 150PX; background-color: aquamarine;" bind:tap="viewHandler">
+  <button id="btn" type="primary" size="mini" bind:tap="btnTapHandler">
+   按钮
+  </button>
+</view> -->
+<!-- <view style="font-size: 20px; display: flex; justify-content: center;">{{count}}</view>
+<button type="default" bind:tap="changeCount">+1</button>
+<button style="margin-top:5px" type="warn" bind:tap="btnTap2" data-info="{{2}}">+2</button> -->
+<input value="{{msg}}" type="text" bindinput="inputahandle" placeholder="input"/>
+<view wx:if="{{condition}}">condition</view>
+<view wx:if="{{type ===1}}">男</view>
+<view wx:elif="{{type===2}}">女</view>
+<view wx:else>其他</view>
+<!-- // block并不是一个组件，它只是一个包裹性质的容器，不会再页面中做任何渲染 -->
+<block wx:if="{{true}}">
+  <view>view1</view>
+  <view>view2</view>
+</block>
+<view hidden="{{condition}}"> 条件为true隐藏，条件为false显示</view>
+<view wx:for="{{array}}"> {{index}} - {{item}} </view>
+<view>----------</view>
+<view wx:for="{{userList}}" wx:key="id" class="username">{{item.name}}</view>

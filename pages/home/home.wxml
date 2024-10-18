@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text>
+<button bind:tap="getInfo">发起get请求</button>
+<button bind:tap="postInfo">发起post请求</button>
+<navigator url="/pages/message/message" open-type="switchTab">跳转到message页面</navigator>
+<navigator url="/pages/info/info" open-type="navigate">跳转到info页面</navigator>
+<view>-----------</view>
+
+<button bind:tap="gotoMessage" type="primary">跳转到消息页</button>
+<button bind:tap="gotoInfo" type="warn">跳转到info页面</button>
+<view>-----------</view>
+<navigator url="/pages/info/info?name=zs&age=20">跳转到info页面</navigator> -->
+
+<!-- <my-test1></my-test1> -->
+
+<!-- <my-test4>
+  <view style="margin: 40rpx;" slot="before">dfgfffffffffff</view>
+</my-test4> -->
+
+<my-test3  class="test3" id="myTest3"></my-test3>
+<view>父组件中count值为：{{count}}</view>
+<my-test4 count="{{count}}" bind:sync="syncCount"></my-test4>
+<button bind:tap="getChild">获取子组件的实例对象</button>
+
+
+<my-test5></my-test5>
+
+<view>home组件中store</view>
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+
+<van-button type="primary" bind:tap="btnHandler" data-step="{{1}}">numA + 1</van-button>
+<van-button type="danger" bind:tap="btnHandler" data-step="{{-1}}">numA - 1</van-button>

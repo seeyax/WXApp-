@@ -1,0 +1,7 @@
+<!--components/test3/test3.wxml-->
+<text>components/test3/test3.wxml</text>
+<view>------</view>
+<button size="mini" type="default" bind:tap="changeR">R</button>
+<button size="mini" type="primary" bind:tap="changeG">G</button>
+<button size="mini" type="warn" bind:tap="changeB">B</button>
+<view class="num-item" style="background-color: rgba({{fullColor}});">{{fullColor}}</view>

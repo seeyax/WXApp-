@@ -1,0 +1,21 @@
+<!--pages/message/message.wxml-->
+<text>pages/message/message.wxml</text>
+<view>--------</view>
+<!-- <view>count值为：{{count}}</view>
+<button type="primary" bind:tap="addCount">+1</button>
+<view>{{uername}}</view>
+
+<view>{{m1.toUpper(uername)}}</view>
+<wxs module="m1">
+  module.exports.toUpper = function (str) {
+    return str.toUpperCase()
+  }
+</wxs>
+<view>--------</view>
+<view>{{name}}</view>
+<view>···········</view>
+
+<wxs src="../../utils/tool.wxs" module="m2"></wxs>
+<view>{{m2.toLower(name)}}</view> -->
+<!-- <my-test2 max="10"></my-test2> -->
+<my-test3></my-test3>

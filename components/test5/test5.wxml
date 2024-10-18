@@ -1,0 +1,8 @@
+<!--components/test5/test5.wxml-->
+<text>components/test5/test5.wxml</text>
+
+<view>在behavior中定义的用户名是：{{username}}</view>
+<van-button type="primary" bind:tap="getBInfo">van-button</van-button>
+<view>{{numA}} + {{numB}} = {{sum}}</view>
+<van-button type="primary" bind:tap="btnBHandler" data-step="{{1}}">numB + 1</van-button>
+<van-button type="danger" bind:tap="btnBHandler" data-step="{{-1}}">numB - 1</van-button>

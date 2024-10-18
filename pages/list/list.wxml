@@ -1,0 +1,33 @@
+<!--pages/list/list.wxml-->
+<!-- <scroll-view scroll-y="true" style="height: 120px;">
+  <view class="a">A</view>
+  <view class="b">B</view>
+  <view class="c">C</view>
+</scroll-view> -->
+<!-- <swiper class="swiper-container" circular indicator-dots indicator-color="white" style="margin-top: 10px; width: 100px; text-align: center;">
+  <swiper-item>
+    <view class="a">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="b">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="c">C</view>
+  </swiper-item>
+</swiper> -->
+
+<view>
+  手机号支持长按选中
+  <text selectable>18656454327</text>
+</view>
+<view style="margin-top: 10px;">
+  <rich-text nodes="<h2 style='color:red'>标题</h2>"/>
+</view>
+
+<button>
+  按钮
+</button>
+<button size="mini" plain type="primary">anniu</button>
+
+<image src="" mode="" style="border: 1px solid red;"></image>
+<image src="/images/DFCBA65F-0D39-4612-87F9-1FA5A553E16E.png" mode="heightFix" style="border: 1px solid green;"></image>

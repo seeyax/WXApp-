@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ff0000",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "Message",
+  "backgroundColor": "#efefef",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 150
+}

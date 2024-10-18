@@ -1,0 +1,9 @@
+/* pages/concact/concact.wxss */
+
+.num-item {
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  line-height: 200rpx;
+  margin: 15rpx;
+  text-align: center;
+}

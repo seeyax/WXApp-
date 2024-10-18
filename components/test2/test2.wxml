@@ -1,0 +1,9 @@
+<!--components/test2/test2.wxml-->
+<text>components/test2/test2.wxml</text>
+<view>count值为： {{count}}</view>
+<button type="primary" bind:tap="addCount">+1</button>
+<view>{{max}}</view>
+
+<view>{{n1}} + {{n2}} = {{sum}}</view>
+<button type="primary" bind:tap="n1Add">n1的值</button>
+<button type="primary" bind:tap="n2Add">n2的值</button>

@@ -1,0 +1,18 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  text-shadow: 0rpx 0rpx 5rpx #fff;
+  box-shadow: 1rpx 1rpx 6rpx #aaa;
+}
+
+page {
+  --button-danger-background-color: #c00000;
+  --button-danger-border-color: #D60000;
+  --button-primary-background-color: #48ac96;
+  --button-primary-border-color: #2fcfad;
+}

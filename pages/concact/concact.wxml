@@ -1,0 +1,8 @@
+<!--pages/concact/concact.wxml-->
+<text>pages/concact/concact.wxml</text>
+
+
+  <!-- <view wx:for="array" wx:key="item" class="num-item" style="background-color: #833838;">{{item}}</view> -->
+  <view wx:for="{{colorList}}" wx:key="index" class="num-item" style="background-color: rgba({{item}});">
+    {{item}}
+  </view>

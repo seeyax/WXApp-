@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/message/message",
+    "pages/concact/concact",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/info/info"
+  ],
+  "subPackages": [
+    {
+      "root": "pkgA",
+      "name": "A",
+      "pages": [
+        "pages/list/list",
+        "pages/logs/logs"
+      ]
+    }
+    ,{
+      "root": "pkgB",
+      "name": "B",
+      "pages": [
+        "pages/info/info"
+      ],
+      "independent": true
+    }
+  ],
+  "preloadRule": {
+    "pages/concact/concact": {
+      "network": "all",
+      "packages": ["pkgA"]
+    }
+  },
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "weChat",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tab_icons/home.png",
+        "selectedIconPath": "/images/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/images/tab_icons/cate.png",
+        "selectedIconPath": "/images/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/concact/concact",
+        "text": "联系",
+        "iconPath": "/images/tab_icons/my.png",
+        "selectedIconPath": "/images/tab_icons/my-active.png"
+      }
+    ],
+    "position": "bottom",
+    "borderStyle": "black"
+
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "my-test3": "/components/test3/test3",
+    "my-test4": "/components/test4/test4",
+    "my-test5": "/components/test5/test5",
+    "van-button": "@vant/weapp/button/index"
+  }
+}
